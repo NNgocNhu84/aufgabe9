@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    padding: 60px 100px 20px;
+}
+
+.menu-list {
+    
+    float: right;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    width: 50%;
+    height: 10%;
+}
+
+.menu-list li {
+    height: 30%;
+    text-align: center;
+    margin: 1%;
+    width: 20%;
+}
+
+.dog {
+    height: 150px;
+}
+
+header h1 {
+    margin: 100px 0;
+}
+
+.round-white-box {
+    margin-bottom: 80px; 
+}
+
+.main-flexbox {
+    display: flex;  
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.main-textbox {
+    width: 75%;
+    padding: 0 25px;
+    margin: 18px;  
+    text-align: left;
+    align-self: center;
+}
+
+.main-image {
+    height: 400px;
+    width: 75%;
+    margin: 18px;  
+}
+
+.main-button {
+    display: inline-block;
+    padding: 11px 0px;
+    text-align: center;
+    width: 50%;
+    margin: 20px 0;
+}
+
+.main-footer {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-footer .main-button{
+    width: 125px;
+}
+
+.main-footer div {
+    display: flex;
+}
+
+.line {
+    display: none;
+}
+
+.main-textbox .main-button {
+    margin-left: 25%;
+
+}
+
+@media screen and (max-width: 1280px) {
+    .menu-list li {
+        display: none;
+    }
+
+    .menu-list {
+        width: 8.5%;
+        flex-direction: column;
+        justify-content: start;
+    }
+
+    .line {
+        display: block;
+        height: 8px;
+        width: 75px;
+        background-color: white;
+        margin-bottom: 10px;
+    }
+}
